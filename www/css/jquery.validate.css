@@ -1,0 +1,27 @@
+﻿label.error {
+ float: left; color: #c80101; padding-top: .5em; vertical-align: top; font-weight:bold; font-size:1em;
+}
+
+input.error
+{
+  border: 1px solid #c80101 !important; background: #fbe3e4 !important; 
+}
+
+textarea.error
+{
+  border: 1px solid #c80101 !important; background: #fbe3e4 !important; 
+}
+
+.input_error {border: 1px solid #c80101 !important; background: #fbe3e4 !important;}
+
+
+
+/*@media screen and (orientation: portrait){
+    label.error { margin-left: 0; display: block; }
+}
+
+@media screen and (orientation: landscape){
+    label.error { display: inline-block; margin-left: 22%; }
+}
+
+em { color: red; font-weight: bold; padding-right: .25em; }*/

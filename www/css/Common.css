@@ -1,0 +1,485 @@
+﻿html, body, div, span, applet, object, iframe, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+
+.BackConetnt {
+    padding: 0;
+    position: absolute !important;
+    right: 0;
+    left: 0 !important;
+    background-image: url(images/LeftBack.png);
+    background-size: auto;
+}
+
+body {
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+}
+
+/*.ui-content {
+    padding: 0 !important;
+}
+
+.ui-listview {
+    margin: 0 !important;
+}*/
+<!-- http://stackoverflow.com/questions/6303124/a-bottom-navbar-in-jquery-mobile-looking-like-iphone-navbar-possible/6307302#6307302-- >
+/* --- NavBar CSS
+------------------------------------------------------------------------
+-*/
+.ui-page {
+    -webkit-backface-visibility: hidden;
+}
+
+.nav-glyphish-example .ui-btn .ui-btn-inner {
+    padding-top: 37px !important;
+}
+
+.nav-glyphish-example .ui-btn .ui-icon {
+    width: 30px!important;
+    height: 30px!important;
+    margin-left: -15px !important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+.nav_map:after {
+    background: url('../images/74-location.png') 50% 50% no-repeat;
+    background-size: 20px 20px;
+}
+
+.nav_call:after {
+    background: url('../images/75-phone.png') 50% 50% no-repeat;
+    background-size: 24px 24px;
+}
+
+.nav_help:after {
+    background: url('../images/90-life-buoy.png') 50% 50% no-repeat;
+    background-size: 24px 24px;
+}
+
+.nav_pay:after {
+    background: url('../images/pay.png') 50% 50% no-repeat;
+    background-size: 20px 20px;
+}
+
+
+/*.nav_About:after 
+{ 
+    background:  url('../images/About.png') 50% 50% no-repeat;
+    background-size: 40px 40px;
+}
+
+.nav_Broker:after 
+{ 
+    background:  url('../images/BrokerS.png') 50% 50% no-repeat;
+    background-size: 40px 40px;
+}
+
+.nav_Claim:after 
+{ 
+    background:  url('../images/ClaimS.png') 50% 50% no-repeat;
+    background-size: 40px 40px;
+}
+
+.nav_MapLoc:after 
+{ 
+    background:  url('../images/MapS.png') 50% 50% no-repeat;
+    background-size: 40px 40px;
+}
+
+.nav_Products:after 
+{ 
+    background:  url('../images/ProductsS.png') 50% 50% no-repeat;
+    background-size: 40px 40px;
+}
+
+.nav_Useful:after
+{ 
+    background:  url('../images/ToolsS.png') 50% 50% no-repeat;
+    background-size: 40px 40px;
+}*/
+/* --- NavBar CSS for home page icons
+------------------------------------------------------------------------
+-*/
+/*.nav-glyphish-home .ui-btn { padding-top: 60px !important; }
+.nav-glyphish-home .ui-btn:after  { width: 50px!important; height: 50px!important; margin-left: -15px !important; box-shadow: none!important; -moz-box-shadow: none!important; -webkit-box-shadow: none!important; -webkit-border-radius: 0 !important; border-radius: 0 !important; }*/
+
+.nav-glyphish-home .ui-btn {
+    padding-top: 70px !important;
+}
+
+    .nav-glyphish-home .ui-btn:after {
+        width: 50px!important;
+        height: 50px!important;
+        margin-left: -24px !important;
+        box-shadow: none!important;
+        -moz-box-shadow: none!important;
+        -webkit-box-shadow: none!important;
+        -webkit-border-radius: 0 !important;
+        border-radius: 0 !important;
+    }
+
+.nav_product:after {
+    background: url('../images/Products.png') 50% 50% no-repeat;
+    background-size: 100px 100px;
+    background-position: top;
+}
+
+.nav_Claim:after {
+    background: url('../images/Claim.png') 50% 50% no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.nav_Broker:after {
+    background: url('../images/Broker.png') 50% 50% no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.nav_Useful:after {
+    background: url('../images/Tools.png') 50% 50% no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.nav_Map:after {
+    background: url('../images/Map.png') 50% 50% no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+.nav_About:after {
+    background: url('../images/About.png') 50% 50% no-repeat;
+    background-size: contain;
+    background-position: top;
+}
+
+/* --- END 
+------------------------------------------------------------------------
+-*/
+
+/* --- NavBar CSS for menu icons
+------------------------------------------------------------------------
+-*/
+
+.nav-glyphish-menu .ui-btn .ui-btn-inner {
+    padding-top: 37px !important;
+}
+
+.nav-glyphish-menu .ui-btn:after {
+    width: 40px!important;
+    height: 40px!important;
+    margin-left: -15px !important;
+    box-shadow: none!important;
+    -moz-box-shadow: none!important;
+    -webkit-box-shadow: none!important;
+    -webkit-border-radius: 0 !important;
+    border-radius: 0 !important;
+}
+
+
+/*.nav_Aboutm:after
+{ 
+    background:  url('../images/Aboutn.png') 50% 50% no-repeat;
+    background-size: 30px 30px;
+    background-position:top;
+}
+
+.nav_Brokerm:after
+{ 
+    background:  url('../images/Smallloginarea.png') 50% 50% no-repeat;
+    background-size: 30px 30px;
+     background-position:top;
+}
+
+.nav_Claimm:after 
+{ 
+    background:  url('../images/Smallclaims.png') 50% 50% no-repeat;
+    background-size: 30px 30px;
+     background-position:top;
+}
+
+.nav_MapLocm:after
+{ 
+    background:  url('../images/Smallbranches.png') 50% 50% no-repeat;
+    background-size: 30px 30px;
+     background-position:top;
+}
+
+.nav_Productsm:after 
+{ 
+    background:  url('../images/Smallproduct.png') 50% 50% no-repeat;
+    background-size: 30px 30px;
+     background-position:top;
+}
+
+.nav_Usefulm:after
+{ 
+    background:  url('../images/Smallusefulnumb.png') 50% 50% no-repeat;
+    background-size: 30px 30px;
+    background-position:top;
+}*/
+
+
+/* --- END 
+------------------------------------------------------------------------
+-*/
+
+a[data-rel='back'], .ui-header a[data-rel='back'] {
+    /*background: transparent url(../images/iphone-back.png) 0 0 no-repeat !important ;
+                -webkit-box-shadow: none !important; 
+                -moz-box-shadow: none !important; 
+                box-shadow: none !important;*/
+    -webkit-border-radius: 0 !important;
+    -moz-border-radius: 0 !important;
+    border-radius: 0px 10px 10px 0px !important;
+    border: 0 none !important;
+    height: 30px;
+    line-height: 30px;
+    width: 45px;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+    background-color: #00a5c1;
+}
+
+
+    a[data-rel='back'] .ui-btn-inner {
+        background: transparent url(../images/iphone-back.png) 0 0 no-repeat !important;
+        height: 30px;
+        line-height: 30px;
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+        margin: 0 0 0 0 !important;
+        padding: 0 0 0 0 !important;
+    }
+
+    a[data-rel='back'] .ui-icon {
+        display: none;
+    }
+
+.CustomEdit {
+    background: transparent url(../images/iphone-back.png) 0 0 no-repeat !important;
+    height: 30px;
+    line-height: 30px;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    box-shadow: none !important;
+    margin: 0 0 0 0 !important;
+    padding: 0 0 0 0 !important;
+}
+
+.SBMrounding {
+    color: Black;
+    font-family: arial;
+    font-size: 11px;
+}
+
+.DOBVisible {
+    display: none;
+}
+
+label.error {
+    float: left;
+    color: #c80101;
+    padding-top: .5em;
+    vertical-align: top;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+input.error {
+    border: 1px solid #c80101 !important;
+    background: #fbe3e4 !important;
+}
+
+.input_error {
+    border: 1px solid #c80101 !important;
+    background: #fbe3e4 !important;
+}
+
+.BackgroungImages {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/111.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.BackgroungImagesLogin {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/grey.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    opacity: 0.9;
+    /*height: -webkit-fill-available;*/
+}
+
+.BackgroungImages2 {
+    background-image: -webkit-linear-gradient(top, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url(../images/222.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.evenTemplate {
+    background-color: #b3b4b4;
+    border: 0px solid gray;
+    margin: 0;
+    padding: 3px 3px 6px 3px;
+}
+
+.oddTemplate {
+    background-color: #dedede;
+    border: 0px solid gray;
+    margin: 0;
+    padding: 3px 3px 6px 3px;
+}
+
+.evenTemplateWithoutMargin {
+    background-color: #a0a2a3;
+    border: 0px solid gray;
+    margin: 0;
+    padding: 0px;
+}
+
+.oddTemplateWithoutMargin {
+    background-color: #cfd0d1;
+    border: 0px solid gray;
+    margin: 0;
+    padding: 0px;
+}
+
+.Disablelabel {
+    text-decoration: line-through red;
+}
+
+.HeaderTopText {
+    text-align: left;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana;
+    background-color: #174593;
+    color: white;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: normal;
+}
+
+.HeaderTopText3 {
+    text-align: left;
+    margin: 0;
+    text-align: center;
+    font-size: 12px;
+    font-family: Verdana;
+    background-color: #00a5c1;
+    color: white;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: normal;
+}
+
+.HeaderTopText2 {
+    text-align: left;
+    margin: 0;
+    text-align: center;
+    font-size: 11px;
+    font-family: Verdana;
+    background-color: #174593;
+    color: white;
+    border-radius: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
+    font-weight: normal;
+}
+.boxImage {
+   display: flex;
+   align-items:center;
+}
+.checkbox-container{display:flex;}
+
+.checkbox-container input[type="checkbox"]{display:inline-block;}
+.checkbox-container label{display:inline;}
+
+.ui-loader-background {
+    width:100%;
+    height:100%;
+    top:0;
+    padding: 0;
+    margin: 0;
+    background: rgba(0, 0, 0, 0.3);
+    display:none;
+    position: fixed;
+    z-index:1000000000000;
+}
+
+.ui-loading .ui-loader-background {
+    display:block;
+}
+
+
+.trams-conditions {
+padding-left: 20px;
+    padding-top: 10px;
+}
+
+ .plus-icon {
+  background: url('../images/plus-01.png') no-repeat left center;
+  background-size: 16px;
+  margin: 5px 0;
+}
+
+ .plus-icon.mins-icon {
+  background: url('../images/minus-01.png') no-repeat left center;
+  background-size: 16px;
+  margin: 5px 0;
+}
+
+  .plus-icon2 {
+  background: url('../images/plus-01.png') no-repeat left center;
+  background-size: 16px;
+  margin: 5px 0;
+}
+
+ .plus-icon2.mins-icon2 {
+  background: url('../images/minus-01.png') no-repeat left center;
+  background-size: 16px;
+  margin: 5px 0;
+}
+       .card-container {
+    float: left;
+    width: calc(100%/4);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: baseline;
+    align-content: center;
+}
